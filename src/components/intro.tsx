@@ -2,11 +2,12 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Intro = () => {
   return (
-    <section>
+    <section className="mb-28 max-w-[50rem text-center sm:mb-0 ]">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -41,6 +42,23 @@ const Intro = () => {
             👋
           </motion.span>
         </div>
+      </div>
+
+      <motion.p
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        Hello I'm <span className="font-bold">Kapil. </span>
+        I'm a{" "}
+        <span className="font-bold">
+          Full-stack developer & Mobile App Developer.
+        </span>
+        I enjoy building webapps and mobile apps.
+      </motion.p>
+
+      <div>
+        <Link href="#contact"></Link>
       </div>
     </section>
   );
