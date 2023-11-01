@@ -5,6 +5,12 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "/public/corpcomment.png";
 import rmtdevImg from "/public/rmtdev.png";
 import wordanalyticsImg from "/public/wordanalytics.png";
+import gamesDomImg from '/public/gamesdom.png'
+import chatappImg from '/public/chatapp.png'
+import gamesdomImg from '/public/gamesdom2.png'
+import chatappnewImg from '/public/chatapp_flutter.png'
+import promptsImg from '/public/promptsnation.png';
+
 
 export const links = [
     {
@@ -62,25 +68,25 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "GamesDom",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: corpcommentImg,
+            "Created this React web app where users can search for games and see details about them. It uses the RAWG API.",
+        tags: ["React", "Typescript", "ChakraUI", "Tailwind",],
+        imageUrl: gamesdomImg,
     },
     {
-        title: "rmtDev",
+        title: "Chat-App",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: rmtdevImg,
+            "Developed this mobile application with Flutter with login/logout, chat messaging, and image upload functionality. It uses Firebase and Firestore for the backend.",
+        tags: ["Flutter", "Dart", "Firebase", "Firestore"],
+        imageUrl: chatappnewImg,
     },
     {
-        title: "Word Analytics",
+        title: "Prompts Nation",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg,
+            "Built a Nextjs Web app where users can create, read, update, and delete prompts. Browse prompts provided by other users ,save, copy & provide feedback to fellow users.",
+        tags: ["Next.js", "Typescript", "MongoDB", "Tailwind", "PostCSS"],
+        imageUrl: promptsImg,
     },
 ] as const;
 
