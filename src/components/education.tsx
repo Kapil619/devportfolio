@@ -8,11 +8,13 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { educationData } from "@/lib/data";
+import { useSectionInView } from "@/lib/hooks";
 
 // classname=" scroll-mt-28 mb-28 sm:mb-40 "
 const Education = () => {
+  const { ref } = useSectionInView("Education");
   return (
-    <section id="education">
+    <section id="education" ref={ref}>
       <SectionHeading text="My Education" />
       <VerticalTimeline lineColor="">
         {educationData.map((item, index) => (
