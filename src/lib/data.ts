@@ -30,8 +30,8 @@ export const links = [
         hash: "#skills",
     },
     {
-        name: "Experience",
-        hash: "#experience",
+        name: "Education",
+        hash: "#education",
     },
     {
         name: "Contact",
@@ -39,30 +39,31 @@ export const links = [
     },
 ] as const;
 
-export const experiencesData = [
+export const educationData = [
+
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
+        title: "Bachelor's Degree",
+        location: "PESMCOE, Pune",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+            "I'm pursuing my bachelors degree in Electronics & Computer Engineering with honours in Data Science at PesMcoe Pune         ",
         icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        date: "2021 - 2025",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "HSC",
+        location: "High School, Pune, India",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-        icon: React.createElement(CgWorkAlt),
+            "Completed my high school education at Pune University with 95%.",
+        icon: React.createElement(LuGraduationCap),
         date: "2019 - 2021",
     },
     {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
+        title: "SSC",
+        location: "SSGMES, Shegaon",
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
+            "Completed my schooling at SSGM School Shegaon and passed SSC with 90%.",
+        icon: React.createElement(LuGraduationCap),
+        date: "2009-2019",
     },
 ] as const;
 
