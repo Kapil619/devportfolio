@@ -9,6 +9,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { educationData } from "@/lib/data";
 
+// classname=" scroll-mt-28 mb-28 sm:mb-40 "
 const Education = () => {
   return (
     <section id="education">
