@@ -23,6 +23,8 @@ const ThemeSwitch = () => {
 
     if (localTheme) {
       settheme(localTheme);
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      settheme("dark");
     }
   }, []);
 
