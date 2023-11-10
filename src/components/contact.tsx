@@ -53,7 +53,7 @@ const Contact = () => {
           required
           maxLength={500}
           placeholder="Your email"
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opcaity-100 transition-all dark:outline-none"
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           type="email"
         />
         <textarea
@@ -61,7 +61,7 @@ const Contact = () => {
           placeholder="Your message"
           maxLength={5000}
           required
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opcaity-100 transition-all dark:outline-none"
+          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         />
         <button
           className=" group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all  focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10"
