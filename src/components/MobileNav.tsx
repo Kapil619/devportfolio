@@ -3,6 +3,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 import { links } from "@/lib/data";
 import clsx from "clsx";
 import { motion } from "framer-motion";
+import Hamburger from "hamburger-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -23,9 +24,18 @@ const MobileNav = () => {
   return (
     <>
       {/* mobile navbar code below */}
-      <nav className="sm:hidden fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-        <button className="text-2xl px-3 py-2" onClick={handleMobileMenuToggle}>
-          ☰
+      <nav className="sm:hidden fixed  top-[0.15rem] right-0  h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
+        <button
+          className={`text-2xl mb-3 px-3  flex items-center   `}
+          onClick={handleMobileMenuToggle}
+        >
+          {/* {isMobileMenuOpen ? "✕" : "☰"}
+           */}
+          <Hamburger
+            rounded
+            toggled={isMobileMenuOpen}
+            toggle={setMobileMenuOpen}
+          />
         </button>
       </nav>
 
