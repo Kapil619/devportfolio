@@ -12,10 +12,14 @@ export default function Projects() {
   //for show more btn
   const initialProjectsToShow = 3;
   const [projectsToShow, setProjectsToShow] = useState(initialProjectsToShow);
-  const handleShowMore = () => {
-    setProjectsToShow((prevCount) => prevCount + 3);
-  };
 
+  const handleToggleShow = () => {
+    setProjectsToShow((prevCount) =>
+      prevCount === initialProjectsToShow
+        ? projectsData.length
+        : initialProjectsToShow
+    );
+  };
   return (
     <section
       ref={ref}
@@ -44,8 +48,7 @@ export default function Projects() {
         ))}
       </div>
 
-      {/* "Show More" button */}
-      {projectsToShow < projectsData.length && (
+      {projectsData.length > initialProjectsToShow && (
         <motion.button
           initial={{
             opacity: 0,
@@ -60,9 +63,9 @@ export default function Projects() {
           className=" cursor-pointer mt-4 inline-block bg-gray-900 text-white rounded-full outline-none transition-all  focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10
           h-[3rem] w-[8rem]
           "
-          onClick={handleShowMore}
+          onClick={handleToggleShow}
         >
-          Show More
+          {projectsToShow === initialProjectsToShow ? "Show More" : "Show Less"}
         </motion.button>
       )}
     </section>
