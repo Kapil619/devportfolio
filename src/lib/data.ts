@@ -1,14 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "/public/corpcomment.png";
-import rmtdevImg from "/public/rmtdev.png";
-import wordanalyticsImg from "/public/wordanalytics.png";
-import gamesDomImg from '/public/gamesdom.png'
-import chatappImg from '/public/chatapp.png'
-import gamesdomImg from '/public/gamesdom2.png'
-import chatappnewImg from '/public/chatapp_flutter.png'
+import chatappnewImg from '/public/chatapp_flutter.png';
+import gamesdomImg from '/public/gamesdom2.png';
+import TrackerImg from '/public/issue-tracker.png';
 import promptsImg from '/public/promptsnation.png';
 
 
@@ -74,6 +68,10 @@ export const projectsData = [
             "Created this React web app where users can search for games and see details about them. It uses the RAWG API.",
         tags: ["React", "Typescript", "ChakraUI", "Tailwind",],
         imageUrl: gamesdomImg,
+        githubLink: "https://github.com/Kapil619/GamesDom",
+        deploymentLink: "https://games-dom.vercel.app/",
+        category: ["All", "Web"],
+
     },
     {
         title: "Chat-App",
@@ -81,13 +79,29 @@ export const projectsData = [
             "Developed this mobile application with Flutter with login/logout, chat messaging, and image upload functionality. It uses Firebase and Firestore for the backend.",
         tags: ["Flutter", "Dart", "Firebase", "Firestore"],
         imageUrl: chatappnewImg,
+        githubLink: "https://github.com/Kapil619/chat_app",
+        deploymentLink: "https://github.com/Kapil619/chat_app",
+        category: ["All", "Mobile"],
     },
     {
         title: "Prompts Nation",
         description:
             "Built a Nextjs Web app where users can create, read, update, and delete prompts. Browse prompts provided by other users ,save, copy & provide feedback to fellow users.",
-        tags: ["Next.js", "Typescript", "MongoDB", "Tailwind", "PostCSS"],
+        tags: ["Next.js", "Typescript", "MongoDB", "Tailwind"],
         imageUrl: promptsImg,
+        githubLink: "https://github.com/Kapil619/promptsnation",
+        deploymentLink: "https://promptsnation-hqvg2rwjp-kapil619.vercel.app/",
+        category: ["All", "Web"],
+    },
+    {
+        title: "Issue-Tracker",
+        description:
+            "Built a Nextjs Web app with SQL Database. Users can create ,update and delete issues faced by them. Can assign issues to other users & more.",
+        tags: ["Next.js", "Typescript", "SQL", "Tailwind", "Prisma"],
+        imageUrl: TrackerImg,
+        githubLink: "https://github.com/Kapil619/Issue-Tracker",
+        deploymentLink: "https://issue-tracker-kapil619.vercel.app/",
+        category: ["All", "Web"],
     },
 ] as const;
 
