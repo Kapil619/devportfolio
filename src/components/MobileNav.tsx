@@ -40,12 +40,18 @@ const MobileNav = () => {
       {/* prev styles  className="sm:hidden fixed  top-[0.15rem] right-0  h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0" */}
 
       <motion.div
-        className="fixed top-0 left-1/2 h-[3rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-20 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]  dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 sm:hidden"
-        initial={{ y: -100, x: "-50%", opacity: 0 }}
-        animate={{ y: 0, x: "-50%", opacity: 1 }}
+        className="fixed top-0  h-[3rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-20 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]  dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 sm:hidden"
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ type: "spring", stiffness: 50, damping: 14 }}
       ></motion.div>
 
-      <nav className="sm:hidden fixed  top-[0.15rem] h-12 flex justify-between w-full px-4 items-center">
+      <motion.nav
+        className="sm:hidden fixed  top-[0.15rem] h-12 flex  justify-between w-full px-4 items-center"
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ type: "spring", stiffness: 50, damping: 14 }}
+      >
         <h1 className="capitalize text-2xl relative">
           <a
             href="/#"
@@ -68,7 +74,7 @@ const MobileNav = () => {
             toggle={setMobileMenuOpen}
           />
         </button>
-      </nav>
+      </motion.nav>
 
       {isMobileMenuOpen && (
         <div className="sm:hidden fixed top-12 w-full bg-white shadow-lg bg-opacity-80 backdrop-blur-[0.5rem] dark:bg-gray-900">
