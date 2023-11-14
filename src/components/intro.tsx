@@ -69,12 +69,12 @@ const Intro = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", stiffness: 75, delay: 0.8 }}
-            className=" text-slate-900 dark:text-white capitalize mb-2 leading-[1.1"
+            className=" text-slate-900 dark:text-slate-50 capitalize mb-2 leading-[1.1"
           >
             Kapil Badokar
           </motion.h1>
           <motion.h3
-            className="text-2xl md:text-4xl lg:text-5xl text-slate-700 dark:text-gray-300 leading-[1.2]"
+            className="text-2xl md:text-4xl lg:text-5xl text-slate-700 dark:text-slate-300 leading-[1.2]"
             // transition={{ delay: 1.1 }}
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}

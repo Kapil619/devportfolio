@@ -3,7 +3,6 @@ import { sendEmail } from "@/actions/sendEmail";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
-import { FaPaperPlane } from "react-icons/fa";
 import SectionHeading from "./sectionHeading";
 import SubmitBtn from "./submit-btn";
 

@@ -1,7 +1,7 @@
+import { useTheme } from "@/context/theme-context";
+import { useInView } from "react-intersection-observer";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { useInView } from "react-intersection-observer";
-import { useTheme } from "@/context/theme-context";
 
 type EducationItemProps = {
   item: {

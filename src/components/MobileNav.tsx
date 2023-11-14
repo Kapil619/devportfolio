@@ -4,17 +4,12 @@ import { links } from "@/lib/data";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import Hamburger from "hamburger-react";
+import { Splash } from "next/font/google";
 import Link from "next/link";
 import { useState } from "react";
-import { Splash, Island_Moments } from "next/font/google";
 
 // Fonts
 const splash = Splash({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-const island_moments = Island_Moments({
   subsets: ["latin"],
   weight: "400",
 });
@@ -35,10 +30,6 @@ const MobileNav = () => {
 
   return (
     <>
-      {/* mobile navbar code below */}
-
-      {/* prev styles  className="sm:hidden fixed  top-[0.15rem] right-0  h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0" */}
-
       <motion.div
         className="fixed top-0  h-[3rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-20 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]  dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 sm:hidden"
         initial={{ y: -100, opacity: 0 }}
@@ -61,13 +52,10 @@ const MobileNav = () => {
           </a>
         </h1>
 
-        {/* <div className="text-lg italic font- ">Kapil Badokar</div> */}
         <button
           className={`text-2xl mb-3 px-3  flex `}
           onClick={handleMobileMenuToggle}
         >
-          {/* {isMobileMenuOpen ? "✕" : "☰"}
-           */}
           <Hamburger
             rounded
             toggled={isMobileMenuOpen}

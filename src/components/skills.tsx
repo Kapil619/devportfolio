@@ -1,10 +1,9 @@
 "use client";
-import React from "react";
-import SectionHeading from "./sectionHeading";
 import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-import { animate, motion } from "framer-motion";
 import { Icon } from "@iconify/react";
+import { motion } from "framer-motion";
+import SectionHeading from "./sectionHeading";
 
 const fadeInaAnimationVariants = {
   initial: {
@@ -33,7 +32,6 @@ const Skills = () => {
         {skillsData.map((skill, index) => (
           <motion.li
             variants={fadeInaAnimationVariants}
-            // prev styles for li className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10  dark:text-white/80"
             className="dark:bg-white/10 bg-white  text-2xl relative  shadow-md dark:shadow-xl rounded-full h-14 w-14 sm:h-16 sm:w-16 grid place-items-center group"
             key={index}
             initial="initial"
