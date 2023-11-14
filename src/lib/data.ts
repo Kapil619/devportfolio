@@ -1,7 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import chatappnewImg from '/public/chatapp_flutter.png';
-import gamesdomImg from '/public/Gamesdom2.png';
+import gamesdomImg from '/public/Gamesdom.png';
 import TrackerImg from '/public/issue-tracker.png';
 import promptsImg from '/public/promptsnation.png';
 
