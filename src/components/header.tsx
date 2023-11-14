@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
 
-const header = () => {
+const Header = () => {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
 
@@ -63,4 +63,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
