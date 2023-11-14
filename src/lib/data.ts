@@ -39,7 +39,7 @@ export const educationData = [
         title: "Bachelor's Degree",
         location: "PESMCOE, Pune",
         description:
-            "I'm pursuing my bachelors degree in Electronics & Computer Engineering with honours in Data Science at PesMcoe Pune         ",
+            "I'm pursuing my bachelors degree in Electronics & Computer Engineering specialization in Data Science at PESMCOE Pune.",
         icon: React.createElement(LuGraduationCap),
         date: "2021 - 2025",
     },
@@ -124,3 +124,12 @@ export const skillsData = [
     { name: "Node.js", src: "logos:nodejs-icon" },
     { name: "Git", src: "devicon:git" },
 ] as const;
+
+
+
+
+
+
+
+
+
