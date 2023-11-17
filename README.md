@@ -18,18 +18,18 @@ Give it a ⭐ if you liked.
 Contacts if you have any suggestions or queries: 
 <ul>
   <li>
-Website [kapilbadokar.vercel.app](https://kapilbadokar.vercel.app)
+Website : (https://kapilbadokar.vercel.app)
   </li>
   <li>
-Github [Kapil619](https://github.com/Kapil619)
+Github : (https://github.com/Kapil619)
   </li>
   <li>
-LinkedIn [Kapil-Badokar](https://www.linkedin.com/in/kapil-badokar/)
+LinkedIn : (https://www.linkedin.com/in/kapil-badokar/)
   </li>
   <li>
-Twitter [kapil_badokar](https://www.twitter.com/kapil_badokar)
+Twitter : (https://www.twitter.com/kapil_badokar)
   </li>
   <li>
-Instagram [_kapil619](https://www.instagram.com/_kapil619)
+Instagram : (https://www.instagram.com/_kapil619)
   </li>
 </ul>
