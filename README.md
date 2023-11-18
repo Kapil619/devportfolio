@@ -7,7 +7,8 @@ This is my personal portfolio website.
 - [Framer Motion]
 - [Iconify]
 
-![portfolio-site](https://github.com/Kapil619/devportfolio/assets/84692375/0f93ad57-648e-495d-be22-8a787029378f)
+![portfolio-ss](https://github.com/Kapil619/devportfolio/assets/84692375/230da361-45ab-4fc4-8b62-9968df12cf49)
+
 
 
 Link for the website:
