@@ -11,7 +11,7 @@ import { educationData } from "@/lib/data";
 import { useInView } from "react-intersection-observer";
 import TimelineElement from "./TimelineElement";
 
-export default function Experience() {
+export default function Education() {
   const { ref } = useSectionInView("Education");
   return (
     <section
@@ -19,7 +19,7 @@ export default function Experience() {
       id="education"
       className="mb-28 max-w-[60rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading text="My Experience"></SectionHeading>
+      <SectionHeading text="My Education"></SectionHeading>
       <VerticalTimeline lineColor="">
         {educationData.map((item, index) => {
           return <TimelineElement key={index} item={item}></TimelineElement>;

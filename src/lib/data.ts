@@ -4,6 +4,7 @@ import chatappnewImg from '/public/chatapp_flutter.png';
 import gamesdomImg from '/public/Gamesdom.png';
 import TrackerImg from '/public/issue-tracker.png';
 import promptsImg from '/public/promptsnation.png';
+import eshwayImg from '/public/eshway.jpg';
 
 
 export const links = [
@@ -14,6 +15,10 @@ export const links = [
     {
         name: "About",
         hash: "#about",
+    },
+    {
+        name: "Experience",
+        hash: "#experience",
     },
     {
         name: "Projects",
@@ -125,7 +130,19 @@ export const skillsData = [
     { name: "Git", src: "devicon:git" },
 ] as const;
 
-
+export const experienceData = [
+    {
+        title: 'Mobile Application Developer Intern',
+        description: ["As a Mobile Application Developer at ESHWAY, I successfully optimized and deployed Python scripts utilizing Selenium, BeautifulSoup4.",
+            "Chrome-driver,These scripts efficiently scraped data from various websites, storing it in Firebase databases & were successfully deployed on AWS lambda with Docker and ECR.",
+            " On the frontend, I undertook the task of revamping an existing Flutter project, resolving compatibility issues, and upgrading dependencies.",
+            " I implemented critical features, including Google sign-in and mobile number authentication while debugging and enhancing overall application functionality.",],
+        imageUrl: eshwayImg,
+        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
+        dateStarted: "December 2023",
+        dateEnded: "January 2024",
+    }
+]
 
 
 
