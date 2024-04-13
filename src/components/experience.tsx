@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <motion.section
       ref={ref}
-      className="h-full max-h-full flex relative overflow-x-hidden flex-col md:flex-col max-w-full px-14 justify-evenly items-center"
+      className="h-full max-h-full flex relative overflow-x-hidden flex-col md:flex-col max-w-full px-2 justify-evenly items-center"
       initial={{
         opacity: 0,
         x: -100,
@@ -29,7 +29,7 @@ const Experience = () => {
       id="experience"
     >
       <SectionHeading text="My Experience " />
-      <div className="w-full mx-auto flex space-x-5 p-3 snap-x snap-mandatory">
+      <div className="w-full mx-auto flex space-x-5 p-1 snap-x snap-mandatory">
         <ExperienceCard />
       </div>
     </motion.section>
