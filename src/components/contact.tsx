@@ -5,9 +5,12 @@ import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 import SectionHeading from "./sectionHeading";
 import SubmitBtn from "./submit-btn";
+import { useState } from "react";
+import { FaSpinner } from "react-icons/fa";
 
 const Contact = () => {
   const { ref } = useSectionInView("Contact");
+  const [submissionStatus, setSubmissionStatus] = useState<string | null>(null);
 
   return (
     <motion.section
@@ -33,14 +36,31 @@ const Contact = () => {
       </p>
       <form
         className="mt-10 flex flex-col dark:text-black "
-        action={async (formData) => {
+        // action={async (formData) => {
+        //   const { data, error } = await sendEmail(formData);
+
+        //   if (error) {
+        //     toast.error(error);
+        //     return;
+        //   }
+        //   toast.success("Email sent succesfully");
+        // }}
+
+        onSubmit={async (event: React.FormEvent<HTMLFormElement>) => {
+          event.preventDefault();
+          setSubmissionStatus("loading");
+          const formElement = event.target as HTMLFormElement;
+          const formData = new FormData(formElement);
           const { data, error } = await sendEmail(formData);
 
           if (error) {
             toast.error(error);
+            setSubmissionStatus("failed");
             return;
           }
           toast.success("Email sent succesfully");
+          formElement.reset();
+          setSubmissionStatus("successful");
         }}
       >
         <input
@@ -58,7 +78,13 @@ const Contact = () => {
           required
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         />
-        <SubmitBtn />
+        <SubmitBtn disabled={submissionStatus === "loading"}>
+          {submissionStatus === "loading" ? (
+            <FaSpinner className="animate-spin" />
+          ) : (
+            "Submit"
+          )}
+        </SubmitBtn>
       </form>
     </motion.section>
   );
