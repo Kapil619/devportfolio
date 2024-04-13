@@ -5,7 +5,9 @@ import gamesdomImg from '/public/Gamesdom.png';
 import TrackerImg from '/public/issue-tracker.png';
 import promptsImg from '/public/promptsnation.png';
 import eshwayImg from '/public/eshway.jpg';
-
+import Fluttergram from '/public/fluttergram.jpg'
+import ChatApp from '/public/chatapp.jpeg'
+import SeleniumBot from '/public/seleniumbot.png'
 
 export const links = [
     {
@@ -83,20 +85,10 @@ export const projectsData = [
         description:
             "Developed this mobile application with Flutter with login/logout, chat messaging, and image upload functionality. It uses Firebase and Firestore for the backend.",
         tags: ["Flutter", "Dart", "Firebase", "Firestore"],
-        imageUrl: chatappnewImg,
+        imageUrl: ChatApp,
         githubLink: "https://github.com/Kapil619/chat_app",
         deploymentLink: "https://github.com/Kapil619/chat_app",
         category: ["All", "Mobile"],
-    },
-    {
-        title: "Prompts Nation",
-        description:
-            "Built a Nextjs Web app where users can create, read, update, and delete prompts. Browse prompts provided by other users ,save, copy & provide feedback to fellow users.",
-        tags: ["Next.js", "Typescript", "MongoDB", "Tailwind"],
-        imageUrl: promptsImg,
-        githubLink: "https://github.com/Kapil619/promptsnation",
-        deploymentLink: "https://promptsnation-hqvg2rwjp-kapil619.vercel.app/",
-        category: ["All", "Web"],
     },
     {
         title: "Issue-Tracker",
@@ -106,6 +98,26 @@ export const projectsData = [
         imageUrl: TrackerImg,
         githubLink: "https://github.com/Kapil619/Issue-Tracker",
         deploymentLink: "https://issue-tracker-kapil619.vercel.app/",
+        category: ["All", "Web"],
+    },
+    {
+        title: "FlutterGram",
+        description:
+            "FlutterGram is an Instagram clone built with Flutter. It has has multiple features like Posting, LiveFeed ,Likes/Comments,Explore-Section, Profile-Section.",
+        tags: ["Flutter", "Firebase", "Dart", "Provider"],
+        imageUrl: Fluttergram,
+        githubLink: "https://github.com/Kapil619/FlutterGram",
+        deploymentLink: "https://github.com/Kapil619/FlutterGram",
+        category: ["All", "Mobile"],
+    },
+    {
+        title: "Selenium-Bot",
+        description:
+            "It is an automated command line application created in Python + Selenium to get the best hotels of any area with their details from the www.booking.com website.",
+        tags: ["Selenium", "Python", "Webdriver"],
+        imageUrl: SeleniumBot,
+        githubLink: "https://github.com/Kapil619/SeleniumBot",
+        deploymentLink: "https://promptsnation-hqvg2rwjp-kapil619.vercel.app/",
         category: ["All", "Web"],
     },
 ] as const;
@@ -118,16 +130,18 @@ export const skillsData = [
     { name: "React", src: "logos:react" },
     { name: "Next.js", src: "devicon:nextjs" },
     { name: "Flutter", src: "logos:flutter" },
-    { name: "Tailwind", src: "devicon:tailwindcss" },
+    { name: "Selenium", src: "logos:selenium" },
     { name: "Django", src: "vscode-icons:file-type-django" },
     { name: "MongoDB", src: "logos:mongodb-icon" },
     { name: "SQL", src: "vscode-icons:file-type-sql" },
+    { name: "Firebase", src: "logos:firebase" },
     { name: "C++", src: "vscode-icons:file-type-cpp3" },
     { name: "Python", src: "logos:python" },
     { name: "Java", src: "logos:java" },
     { name: "Dart", src: "logos:dart" },
     { name: "Node.js", src: "logos:nodejs-icon" },
     { name: "Git", src: "devicon:git" },
+    { name: "Tailwind", src: "devicon:tailwindcss" },
 ] as const;
 
 export const experienceData = [
