@@ -117,7 +117,7 @@ export const projectsData = [
         tags: ["Selenium", "Python", "Webdriver"],
         imageUrl: SeleniumBot,
         githubLink: "https://github.com/Kapil619/SeleniumBot",
-        deploymentLink: "https://promptsnation-hqvg2rwjp-kapil619.vercel.app/",
+        deploymentLink: "https://github.com/Kapil619/SeleniumBot",
         category: ["All", "Web"],
     },
 ] as const;
