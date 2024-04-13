@@ -23,8 +23,8 @@ const Experience = () => {
       }}
       transition={{
         duration: 1.5,
-        stiffness: 10,
-        delay: 0.5,
+        stiffness: 100,
+        delay: 0.3,
       }}
       id="experience"
     >

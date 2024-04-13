@@ -8,11 +8,11 @@ const ExperienceCard = () => {
     <>
       {experienceData.map((experience) => (
         <article
-          className="sm:w-full flex flex-col rounded-lg items-center space-y-7 flex-shrink-0  md:w-[700px] xl:w-[900px] snap-center bg-[#fdfbff] hover:opacity-100 hover:bg-[#e3d4f4]/50 opacity-70 cursor-pointer transition-opacity duration-200 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white p-2 overflow-y-auto "
+          className="sm:w-full flex flex-col rounded-lg items-center space-y-7 md:w-[700px] xl:w-[900px] snap-center bg-[#fdfbff] hover:opacity-100 hover:bg-[#e3d4f4]/50 opacity-70 cursor-pointer transition-opacity duration-200 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white p-2 overflow-y-auto"
           key={experience.title}
         >
           <Image
-            className="w-32 h-32 rounded-full md:rounded-full xl:w-[80px] xl:h-[80px] object-cover object-center"
+            className="xl:w-32 xl:h-32 rounded-full w-[80px] h-[80px] object-cover object-center"
             width={64}
             height={64}
             src={experience.imageUrl}
