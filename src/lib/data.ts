@@ -147,8 +147,8 @@ export const skillsData = [
 export const experienceData = [
     {
         title: 'Mobile Application Developer Intern',
-        description: ["As a Mobile Application Developer at ESHWAY, I successfully optimized and deployed Python scripts utilizing Selenium, BeautifulSoup4.",
-            "Chrome-driver,These scripts efficiently scraped data from various websites, storing it in Firebase databases & were successfully deployed on AWS lambda with Docker and ECR.",
+        description: ["As a Mobile Application Developer at ESHWAY, I successfully optimized and deployed Python scripts utilizing Selenium, BeautifulSoup4, Chrome-driver.",
+            "These scripts efficiently scraped data from various websites, storing it in Firebase databases & were successfully deployed on AWS lambda with Docker and ECR.",
             " On the frontend, I undertook the task of revamping an existing Flutter project, resolving compatibility issues, and upgrading dependencies.",
             " I implemented critical features, including Google sign-in and mobile number authentication while debugging and enhancing overall application functionality.",],
         imageUrl: eshwayImg,
