@@ -26,7 +26,11 @@ const ExperienceCard = ({ experience, index }: ExperienceCardProps) => {
   return (
     <div className="mb-8 sm:mb-0 sm:flex sm:justify-between sm:items-center w-full">
       {/* This div handles the desktop positioning (left/right) */}
-      <div className={`sm:w-5/12 ${isLeft ? "sm:order-1" : "sm:order-3"}`}>
+      <div
+        className={`sm:w-1/2 ${
+          isLeft ? "sm:order-1 sm:pr-8" : "sm:order-3 sm:pl-8"
+        }`}
+      >
         <motion.div
           variants={cardVariants}
           initial="hidden"
