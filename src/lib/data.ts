@@ -207,6 +207,77 @@ export const experienceData = [
 
 ]
 
+// Add this new array to your data.ts file
+
+// Add this new array to your data.ts file
+
+export const featuredWorkData = [
+    {
+        title: "PaperAsh",
+        tagline: "Private AI Journaling Companion",
+        logoUrl: "/project-logos/paperash-logo.png",
+        description: "A secure, cross-platform journaling app that uses AI to help users reflect and grow. Features local-first data sync, rich text editing, and in-app subscriptions.",
+        features: [
+            "AI-powered chat & content beautification.",
+            "Symbolic 'Burn' feature for emotional release.",
+            "Premium subscriptions with RevenueCat.",
+            "Offline support with local SQLite database.",
+        ],
+        tech: [
+            { name: "React Native", icon: "logos:react" },
+            { name: "Supabase", icon: "logos:supabase-icon" },
+            { name: "RevenueCat", icon: "simple-icons:revenuecat" },
+            { name: "Expo", icon: "logos:expo-icon" },
+            { name: "SQLite", icon: "simple-icons:sqlite" },
+            { name: "PostHog", icon: "simple-icons:posthog" },
+        ],
+        appStoreUrl: "https://apps.apple.com/us/app/paperash/6748613722",
+        playStoreUrl: ""
+    },
+    {
+        title: "SaffronAI",
+        tagline: "AI-Powered Investment Analyzer",
+        logoUrl: "https://www.saffronai.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo.c61962eb.png&w=96&q=75",
+        description: "A cross-platform app providing users with their portfolio analytics,financial scores and personalized wealth management tools.",
+        features: [
+            "Investment tracking through custom-built charts and metrics.",
+            "Real-time updates and reminders via AWS SNS + FCM/APNs integration.",
+            "User login flows with Firebase OTP and custom API-based verification.",
+            "Deep linking and push notifications.",
+        ],
+        tech: [
+            { name: "React Native", icon: "logos:react" },
+            { name: "TypeScript", icon: "logos:typescript-icon" },
+            { name: "Expo", icon: "logos:expo-icon" },
+            { name: "AWS CloudWatch", icon: "logos:aws-cloudwatch" },
+            { name: "AWS ", icon: "logos:aws" },
+
+        ],
+        appStoreUrl: "https://apps.apple.com/us/app/saffronai/id6741477526",
+        playStoreUrl: "https://play.google.com/store/apps/details?id=com.saffronai.saffronai",
+    },
+    {
+        title: "InfoTik",
+        tagline: "Social Media Application",
+        logoUrl: "https://nacue.com/images/tlpteam/l_team_278.jpg",
+        description: "A mobile app for a US-based client that helps local businesses manage customer loyalty programs and online sales.",
+        features: [
+            "Core features like user auth, video live feed, and commenting.",
+            "EAS build pipeline and managed Play Store deployment.",
+            "Realtime data sync with Firebase.",
+            "Redux for state management.",
+        ],
+        tech: [
+            { name: "React Native", icon: "logos:react" },
+            { name: "Javascript", icon: "simple-icons:javascript" },
+            { name: "Firebase", icon: "simple-icons:firebase" },
+            { name: "Expo", icon: "logos:expo-icon" },
+            { name: "Redux", icon: "logos:redux" },
+        ],
+        appStoreUrl: null,
+        playStoreUrl: "https://play.google.com/store/search?q=infotik&c=apps&hl=en_IN",
+    },
+] as const;
 
 
 
