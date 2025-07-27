@@ -150,6 +150,8 @@ export const skillsData = [
     { name: "Node.js", src: "logos:nodejs-icon" },
     { name: "Git", src: "devicon:git" },
     { name: "Tailwind", src: "devicon:tailwindcss" },
+    { name: "AWS", src: "skill-icons:aws-dark" },
+
 ] as const;
 
 export const experienceData = [

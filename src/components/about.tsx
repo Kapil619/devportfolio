@@ -72,8 +72,10 @@ const About = () => {
       <p className="text-left sm:text-center">
         As a recent engineering graduate, I've immersed myself in the startup
         ecosystem, where I've honed my skills in{" "}
-        <span className="font-semibold">React Native, Next.js, and AWS</span>.
-        My passion lies in solving complex problems and turning ideas into
+        <span className="font-semibold">
+          React Native, Next.js, and Flutter
+        </span>
+        . My passion lies in solving complex problems and turning ideas into
         high-quality, scalable code that makes a real impact.
       </p>
     </motion.section>
