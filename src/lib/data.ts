@@ -154,6 +154,41 @@ export const skillsData = [
 
 export const experienceData = [
     {
+        title: 'React Native Engineer',
+        company: 'Hipster Inc',
+        description: ["Develop and deploy high-quality mobile applications for both iOS and Android.",
+            "Build complex, map-based workflows and integrate push notifications.",
+            "Manage the full application lifecycle, from development in Bitbucket to final release on the App Store and Google Play Store.",],
+        imageUrl: "https://mir-s3-cdn-cf.behance.net/user/230/6a0bc2392750827.5ffd3e26d1787.png",
+        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
+        dateStarted: "July 2025",
+        dateEnded: "Present",
+    },
+    {
+        title: 'SDE Intern',
+        company: 'SaffronAI',
+        description: ["Developed and deployed a cross-platform React Native application using TypeScript, successfully launching on both Android and iOS platforms with Firebase and AWS for the backend services",
+            "Leveraged AWS services,including Lambda for serverless workflows, and DynamoDB for user data management",
+            "Designed and deployed push notifications with AWS SNS and SQS, enhancing user engagement.",
+            "Automated infrastructure deployment using AWS CDK streamlining cloud resource management.",
+            "Conducted performance testing, debugged EAS builds, and optimized the app for production usage."],
+        imageUrl: "https://www.saffronai.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo.c61962eb.png&w=96&q=75",
+        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
+        dateStarted: "Aug 2024",
+        dateEnded: "Apr 2025",
+    },
+    {
+        title: 'Development Lead',
+        company: 'InfoTik',
+        description: [" Led the development and deployment of a social media app using React Native and Firebase.",
+            " Implemented key features like Google Authentication, a commenting system, and a full UI revamp.",
+            " Streamlined development processes by configuring Play Console and optimizing the EAS build pipeline.", "Resolved critical bugs, including video playback issues, improving app performance and user satisfaction"],
+        imageUrl: "https://nacue.com/images/tlpteam/l_team_278.jpg",
+        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
+        dateStarted: "June 2024",
+        dateEnded: "Aug 2025",
+    },
+    {
         title: 'Mobile Application Developer Intern',
         company: 'ESHWAY',
         description: ["As a Mobile Application Developer at ESHWAY, I successfully optimized and deployed Python scripts utilizing Selenium, BeautifulSoup4, Chrome-driver.",
@@ -165,39 +200,9 @@ export const experienceData = [
         dateStarted: "December 2023",
         dateEnded: "January 2024",
     },
-    {
-        title: 'Development Lead',
-        company: 'InfoTik',
-        description: ["Rebuilt and deployed a social media app to the Google Play Store.",
-            "Directed a 2-person dev team, coordinated backend tasks, and led weekly code reviews.",
-            "Revamped the UI using scalable design patterns, improving app performance by over 30%."],
-        imageUrl: eshwayImg,
-        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
-        dateStarted: "June 2024",
-        dateEnded: "Aug 2025",
-    },
-    {
-        title: 'SDE Intern',
-        company: 'SaffronAI',
-        description: ["Led development of a cross-platform React Native app, reaching 500+ users.",
-            "Integrated Firebase, Firestore, and AWS services (Lambda, SNS, DynamoDB).",
-            "Automated infrastructure deployment using AWS CDK, streamlining cloud resource management."],
-        imageUrl: eshwayImg,
-        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
-        dateStarted: "Aug 2024",
-        dateEnded: "Apr 2025",
-    },
-    {
-        title: 'React Native Engineer',
-        company: 'Hipster Inc',
-        description: ["Develop and deploy high-quality mobile applications for both iOS and Android.",
-            "Build complex, map-based workflows and integrate push notifications.",
-            "Manage the full application lifecycle, from development in Bitbucket to final release on the App Store and Google Play Store.",],
-        imageUrl: eshwayImg,
-        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
-        dateStarted: "July 2025",
-        dateEnded: "Present",
-    },
+
+
+
 ]
 
 
