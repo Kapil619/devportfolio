@@ -23,7 +23,7 @@ const ExperienceCard = () => {
               {experience.title}
             </h4>
             <p className="font-bold text-xl mt-1 xl:text-2xl dark:text-white">
-              ESHWAY
+              {experience.company}
             </p>
             <div className="flex space-x-2 my-2">
               {experience.skills.map((skill, index) => (

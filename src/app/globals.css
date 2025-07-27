@@ -14,3 +14,21 @@ html.dark {
 .borderBlack {
     @apply border border-black/10
 }
+
+.filter-btn {
+    @apply bg-white px-6 py-2 font-semibold text-gray-700 border border-black/10 rounded-full outline-none transition hover:bg-gray-200;
+}
+
+/* For Dark Mode */
+.dark .filter-btn {
+    @apply bg-white/10 text-white/80 hover:bg-white/20;
+}
+
+/* Style for the active button */
+.filter-btn.active {
+    @apply bg-gray-900 text-white;
+}
+
+.dark .filter-btn.active {
+    @apply bg-gray-200 text-gray-950;
+}

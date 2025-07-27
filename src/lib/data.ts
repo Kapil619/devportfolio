@@ -1,13 +1,12 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import chatappnewImg from '/public/chatapp_flutter.png';
+import eshwayImg from '/public/eshway.jpg';
+import Fluttergram from '/public/fluttergram.png';
 import gamesdomImg from '/public/Gamesdom.png';
 import TrackerImg from '/public/issue-tracker.png';
-import promptsImg from '/public/promptsnation.png';
-import eshwayImg from '/public/eshway.jpg';
-import Fluttergram from '/public/fluttergram.jpg'
-import ChatApp from '/public/chatapp.jpeg'
-import SeleniumBot from '/public/seleniumbot.png'
+import PestRobot from '/public/pestrobot.png';
+import SeleniumBot from '/public/seleniumbot.png';
+import SmartPlug from '/public/smartplug.jpg';
 
 export const links = [
     {
@@ -70,6 +69,24 @@ export const educationData = [
 
 export const projectsData = [
     {
+        title: "Pest Identification",
+        description: "A React Native app controlling a Raspberry Pi robot for real-time pest detection using a YOLOv8 model deployed on AWS.",
+        tags: ["React Native", "YOLOv8", "AWS", "Raspberry Pi", "Flask"],
+        imageUrl: PestRobot,
+        githubLink: "https://github.com/Kapil619/PestDetection",
+        deploymentLink: "https://github.com/Kapil619/PestDetection",
+        category: "Mobile",
+    },
+    {
+        title: "EnergyIQ- Smart Plug",
+        description: "A cross-platform React Native app to monitor and control a custom-built ESP32 smart plug, featuring real-time data sync with Firebase.",
+        tags: ["React Native", "IoT", "ESP32", "Firebase", "Expo"],
+        imageUrl: SmartPlug,
+        githubLink: "https://github.com/Kapil619/SmartPlug",
+        deploymentLink: "https://github.com/Kapil619/SmartPlug",
+        category: "Mobile",
+    },
+    {
         title: "GamesDom",
         description:
             "Created this React web app where users can search for games and see details about them. It uses the RAWG API.",
@@ -77,18 +94,8 @@ export const projectsData = [
         imageUrl: gamesdomImg,
         githubLink: "https://github.com/Kapil619/GamesDom",
         deploymentLink: "https://games-dom.vercel.app/",
-        category: ["All", "Web"],
+        category: "Web",
 
-    },
-    {
-        title: "Chat-App",
-        description:
-            "Developed this mobile application with Flutter with login/logout, chat messaging, and image upload functionality. It uses Firebase and Firestore for the backend.",
-        tags: ["Flutter", "Dart", "Firebase", "Firestore"],
-        imageUrl: ChatApp,
-        githubLink: "https://github.com/Kapil619/chat_app",
-        deploymentLink: "https://github.com/Kapil619/chat_app",
-        category: ["All", "Mobile"],
     },
     {
         title: "Issue-Tracker",
@@ -98,7 +105,7 @@ export const projectsData = [
         imageUrl: TrackerImg,
         githubLink: "https://github.com/Kapil619/Issue-Tracker",
         deploymentLink: "https://issue-tracker-kapil619.vercel.app/",
-        category: ["All", "Web"],
+        category: "Web",
     },
     {
         title: "FlutterGram",
@@ -108,7 +115,7 @@ export const projectsData = [
         imageUrl: Fluttergram,
         githubLink: "https://github.com/Kapil619/FlutterGram",
         deploymentLink: "https://github.com/Kapil619/FlutterGram",
-        category: ["All", "Mobile"],
+        category: "Mobile",
     },
     {
         title: "Selenium-Bot",
@@ -118,8 +125,9 @@ export const projectsData = [
         imageUrl: SeleniumBot,
         githubLink: "https://github.com/Kapil619/SeleniumBot",
         deploymentLink: "https://github.com/Kapil619/SeleniumBot",
-        category: ["All", "Web"],
+        category: "Web",
     },
+
 ] as const;
 
 export const skillsData = [
@@ -147,6 +155,7 @@ export const skillsData = [
 export const experienceData = [
     {
         title: 'Mobile Application Developer Intern',
+        company: 'ESHWAY',
         description: ["As a Mobile Application Developer at ESHWAY, I successfully optimized and deployed Python scripts utilizing Selenium, BeautifulSoup4, Chrome-driver.",
             "These scripts efficiently scraped data from various websites, storing it in Firebase databases & were successfully deployed on AWS lambda with Docker and ECR.",
             " On the frontend, I undertook the task of revamping an existing Flutter project, resolving compatibility issues, and upgrading dependencies.",
@@ -155,7 +164,40 @@ export const experienceData = [
         skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
         dateStarted: "December 2023",
         dateEnded: "January 2024",
-    }
+    },
+    {
+        title: 'Development Lead',
+        company: 'InfoTik',
+        description: ["Rebuilt and deployed a social media app to the Google Play Store.",
+            "Directed a 2-person dev team, coordinated backend tasks, and led weekly code reviews.",
+            "Revamped the UI using scalable design patterns, improving app performance by over 30%."],
+        imageUrl: eshwayImg,
+        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
+        dateStarted: "June 2024",
+        dateEnded: "Aug 2025",
+    },
+    {
+        title: 'SDE Intern',
+        company: 'SaffronAI',
+        description: ["Led development of a cross-platform React Native app, reaching 500+ users.",
+            "Integrated Firebase, Firestore, and AWS services (Lambda, SNS, DynamoDB).",
+            "Automated infrastructure deployment using AWS CDK, streamlining cloud resource management."],
+        imageUrl: eshwayImg,
+        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
+        dateStarted: "Aug 2024",
+        dateEnded: "Apr 2025",
+    },
+    {
+        title: 'React Native Engineer',
+        company: 'Hipster Inc',
+        description: ["Develop and deploy high-quality mobile applications for both iOS and Android.",
+            "Build complex, map-based workflows and integrate push notifications.",
+            "Manage the full application lifecycle, from development in Bitbucket to final release on the App Store and Google Play Store.",],
+        imageUrl: eshwayImg,
+        skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
+        dateStarted: "July 2025",
+        dateEnded: "Present",
+    },
 ]
 
 
