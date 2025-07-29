@@ -7,6 +7,8 @@ import TrackerImg from '/public/issue-tracker.png';
 import PestRobot from '/public/pestrobot.png';
 import SeleniumBot from '/public/seleniumbot.png';
 import SmartPlug from '/public/smartplug.jpg';
+import PaperAsh from '/public/paperash.png';
+
 
 export const links = [
     {
@@ -215,7 +217,7 @@ export const featuredWorkData = [
     {
         title: "PaperAsh",
         tagline: "Private AI Journaling Companion",
-        logoUrl: "/project-logos/paperash-logo.png",
+        logoUrl: PaperAsh,
         description: "A secure, cross-platform journaling app that uses AI to help users reflect and grow. Features local-first data sync, rich text editing, and in-app subscriptions.",
         features: [
             "AI-powered chat & content beautification.",
@@ -260,10 +262,10 @@ export const featuredWorkData = [
         title: "InfoTik",
         tagline: "Social Media Application",
         logoUrl: "https://nacue.com/images/tlpteam/l_team_278.jpg",
-        description: "A mobile app for a US-based client that helps local businesses manage customer loyalty programs and online sales.",
+        description: "A mobile app for a UK based startup, InfoTik, that allows users to share videos and photos, comment on posts, and interact with community.",
         features: [
             "Core features like user auth, video live feed, and commenting.",
-            "EAS build pipeline and managed Play Store deployment.",
+            "Recommendation system for personalized content.",
             "Realtime data sync with Firebase.",
             "Redux for state management.",
         ],
