@@ -194,7 +194,7 @@ export const experienceData = [
         imageUrl: "https://nacue.com/images/tlpteam/l_team_278.jpg",
         skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
         dateStarted: "June 2024",
-        dateEnded: "Aug 2025",
+        dateEnded: "Aug 2024",
     },
     {
         title: 'Mobile Application Developer Intern',
