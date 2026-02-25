@@ -8,6 +8,9 @@ import PestRobot from '/public/pestrobot.png';
 import SeleniumBot from '/public/seleniumbot.png';
 import SmartPlug from '/public/smartplug.jpg';
 import PaperAsh from '/public/paperash.png';
+import Scheduled from '/public/scheduled.png';
+import NParks from '/public/near.png';
+
 
 
 export const links = [
@@ -160,9 +163,10 @@ export const experienceData = [
     {
         title: 'React Native Engineer',
         company: 'Hipster Inc',
-        description: ["Develop and deploy high-quality mobile applications for both iOS and Android.",
-            "Build complex, map-based workflows and integrate push notifications.",
-            "Manage the full application lifecycle, from development in Bitbucket to final release on the App Store and Google Play Store.",],
+        description: [" Developed and maintained production-level React Native applications used by 10k+ users across Android and iOS.",
+            "Built map-based features using Mapbox with real-time tracking, background geolocation, and AR/VR visualization",
+            "Manage the full application lifecycle, from development in Bitbucket to final release on the App Store and Google Play Store",
+            "Contributed to a ReactJS web platform, including development of an interactive PDF/ePub reader module"],
         imageUrl: "https://mir-s3-cdn-cf.behance.net/user/230/6a0bc2392750827.5ffd3e26d1787.png",
         skills: ["logos:python", "logos:dart", "logos:firebase", "logos:aws", 'logos:selenium'],
         dateStarted: "July 2025",
@@ -214,6 +218,50 @@ export const experienceData = [
 // Add this new array to your data.ts file
 
 export const featuredWorkData = [
+    {
+        title: "NParks – Explore A Route",
+        tagline: "Smart Wayfinding & Park Navigation App",
+        logoUrl: NParks,
+        description: "A location-based wayfinding mobile application developed for NParks that enables users to discover routes, navigate parks, and explore community spaces with real-time routing and transport mode support.",
+        features: [
+            "Multi-mode routing (Walk, Cycle, Public Transport, Drive).",
+            "Interactive map-based location selection & route discovery.",
+            "AR Camera for feature for interactive Map activites.",
+            "Secure authentication, Map Trails & Gamification mechanics.",
+            "Scalable code to withstand 10k+ users with efficient state management and optimized API calls.",
+        ],
+        tech: [
+            { name: "React Native", icon: "logos:react" },
+            { name: "TypeScript", icon: "logos:typescript-icon" },
+            { name: "OneMap API", icon: "simple-icons:mapbox" },
+            { name: "Redux / Context API", icon: "logos:redux" },
+            { name: "Expo", icon: "logos:expo-icon" }
+        ],
+        appStoreUrl: "https://apps.apple.com/us/app/nparks-explore-a-route-near/id6444256702",
+        playStoreUrl: "https://play.google.com/store/apps/details?id=com.nparks.near"
+    },
+    {
+        title: "Scheduled",
+        tagline: "Personal Assistant & Organizer App",
+        logoUrl: Scheduled,
+        description: "A Productivity app that lets users manage tasks, schedules, and structured tables using natural language commands. Designed for speed, privacy, and scalable architecture.",
+        features: [
+            "Natural language command parsing for table & task management.",
+            "Dynamic table system to store your data.",
+            "Google Calendar Integration to sync events and reminders.",
+            "Quantitative data management with custom table schemas.",
+            "Calorie tracking, Currency Conversion and more.",
+        ],
+        tech: [
+            { name: "React Native", icon: "logos:react" },
+            { name: "Expo", icon: "logos:expo-icon" },
+            { name: "TypeScript", icon: "logos:typescript-icon" },
+            { name: "Supabase", icon: "logos:supabase-icon" },
+            { name: "PostgreSQL", icon: "logos:postgresql" },
+        ],
+        appStoreUrl: "https://apps.apple.com/us/app/scheduled-organize-your-life/id6756072904",
+        playStoreUrl: "https://play.google.com/store/apps/details?id=com.scheduled.scheduled"
+    },
     {
         title: "PaperAsh",
         tagline: "Private AI Journaling Companion",

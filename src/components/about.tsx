@@ -11,12 +11,12 @@ const About = () => {
   const highlights = [
     {
       icon: "carbon:development",
-      title: "1.5+ Years",
+      title: "2+ Years",
       subtitle: "Experience",
     },
     {
       icon: "ion:rocket-outline",
-      title: "4+",
+      title: "5+",
       subtitle: "Deployed Apps",
     },
     {
